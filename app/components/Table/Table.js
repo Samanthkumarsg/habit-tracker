@@ -34,12 +34,12 @@ const Table = ({ columns, data, onEdit, onDelete }) => {
             {/* Table */}
             <div className="overflow-x-auto w-full">
                 <table className="min-w-full bg-white  border-gray-200">
-                    <thead>
+                    <thead className=''>
                         <tr>
                             {columns.map((column) => (
                                 <th
                                     key={column.key}
-                                    className="px-4 py-3.5 text-left text-sm font-semibold text-gray-500  border-y"
+                                    className="px-4 py-3.5 text-left text-sm font-semibold text-gray-500  border-y sticky left-0 bg-white"
                                 >
                                     {column.label}
                                 </th>
@@ -55,7 +55,7 @@ const Table = ({ columns, data, onEdit, onDelete }) => {
                                 {columns.map((column) => (
                                     <td
                                         key={column.key}
-                                        className="px-4 py-4.5 text-base font-normal text-gray-500 border-b "
+                                        className="px-4 py-4.5 text-base font-normal text-gray-500 border-b sticky left-0 bg-white "
                                     >
                                         {row[column.key]}
                                     </td>

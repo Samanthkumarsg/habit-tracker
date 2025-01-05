@@ -6,7 +6,7 @@ import CategoryCard from "./CategoryCard";
 const Categories = () => {
 
     return (
-        <div className="w-full max-w-screen-2xl mx-auto  flex flex-col justify-center items-start my-10 border-b ">
+        <div className="w-full max-w-screen-2xl  mx-auto  flex flex-col justify-center items-start my-10 border-b p-6 sm:p-6 md:p-4 lg:p-4 xl:p-0">
             <div className=" w-full flex flex-row items-center justify-between ">
                 <h1 className="text-3xl font-semibold text-gray-700">Categories</h1>
                 <button className="flex flex-row items-center justify-center text-sm font-medium text-white bg-primary py-1.5 px-3 rounded-lg">
