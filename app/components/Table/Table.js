@@ -1,4 +1,4 @@
-"use client"
+
 import React, { useState } from 'react';
 import { FiEdit2, FiTrash2, FiPlus } from "react-icons/fi";
 

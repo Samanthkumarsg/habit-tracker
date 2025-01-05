@@ -1,6 +1,4 @@
-"use client"
 
-import React, { useState } from 'react';
 import { FiPlus } from "react-icons/fi";
 import Table from "../Table/Table";
 import CategoryCard from "./CategoryCard";

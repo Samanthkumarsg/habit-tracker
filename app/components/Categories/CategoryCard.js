@@ -1,4 +1,3 @@
-"use client"
 import { FiTrash2, FiGrid } from "react-icons/fi";
 const CategoryCard = () => {
     return (

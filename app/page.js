@@ -1,3 +1,4 @@
+'use client'
 import Categories from "./components/Categories/Categories";
 import Habits from "./components/Habits/Habits";
 import Header from "./components/Header";

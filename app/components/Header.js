@@ -1,4 +1,4 @@
-import Categories from "./Categories/Categories"
+'use client'
 
 const Header = () => {
     return (
