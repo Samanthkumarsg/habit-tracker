@@ -42,10 +42,10 @@ const Habits = () => {
 
 
     return (
-        <div className="w-10/12 mx-auto flex flex-col justify-center items-start my-10">
+        <div className="w-full max-w-screen-2xl  mx-auto flex flex-col justify-center items-start my-10">
             <div className="w-full flex flex-row items-center justify-between">
                 <h1 className="text-3xl font-semibold text-gray-700">Habits</h1>
-            </div>
+            </div>  
 
             <div className="mt-10 w-full">
                 <Table

@@ -21,11 +21,11 @@ const Table = ({ columns, data, onEdit, onDelete }) => {
                     placeholder="Search Habits"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className=" p-1.5 px-3 text-sm border  rounded-lg w-72"
+                    className=" p-1.5 px-3 text-sm border  rounded-lg max-w-72"
                 />
                 <button className="flex flex-row items-center justify-center text-sm font-medium text-white bg-primary py-1.5 px-3 rounded-lg">
                     <FiPlus className="text-white stroke-white mx-1 stroke-2 text-lg" />
-                    Add Habit
+                    Add habit
                 </button>
 
             </div>
